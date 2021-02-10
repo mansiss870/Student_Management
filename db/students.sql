@@ -1,0 +1,10 @@
+insert into student values(108,'Sameer Gupta','C 333-5 Free Ganj',1,'M',true,'1986-04-20');
+insert into student values(109,'Rakesh Mehta','M 43533-5 Sone Nagar',2,'M',true,'1983-05-24');
+insert into student values(110,'Gopal Singh','KK 343533-5 Lajpat Nagar',1,'M',false,'1996-12-23');
+insert into student values(111,'Sarita Gupta','JJ 123333-5 City Chowk',3,'F',true,'1988-11-22');
+insert into student values(112'Pintu Gupta','JJ 123333-5 City Chowk',3,'F',true,'1988-11-22');
+insert into student values(113,'Sangram Gupta','JJ 123333-5 City Chowk',3,'F',true,'1988-11-22');
+insert into student values(114,'Bhumika Gupta','JJ 123333-5 City Chowk',3,'F',true,'1988-11-22');
+insert into student values(115,'xyzGupta','JJ 123333-5 City Chowk',3,'F',true,'1988-11-22');
+insert into student values(116,'whatever Gupta','JJ 123333-5 City Chowk',3,'F',true,'1988-11-22');
+insert into student values(117,'abc Gupta','JJ 123333-5 City Chowk',3,'F',true,'1988-11-22');

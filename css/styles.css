@@ -1,0 +1,40 @@
+.mainLayout 
+{ 
+width:100%; 
+} 
+.logo
+ {
+width:80px; 
+padding:5px; 
+text-align: center;
+ } 
+.companyTitle 
+{ 
+padding:5px; 
+color:#cc3300; 
+font-size:16pt; 
+font-weight:bold; 
+} 
+.navigation 
+{ 
+margin-top:10px; 
+padding:5px; 
+} 
+h1 
+{ 
+font-family: Verdana; 
+font-size: 24pt; 
+font-weight: bold; 
+} 
+.studentViewContainer
+{
+height:600px; 
+width:500px
+overflow:scroll;
+border:1px solid black; 
+} 
+.studentViewGrid 
+{
+width:100%; 
+display:block; 
+}

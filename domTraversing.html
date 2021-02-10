@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang='en'>
+<head>
+<meta charser='UTF-8'>
+<title>Cool</title>
+<script>
+function traverseAll()
+{
+var listOfElements=document.getElementsByTagName("*");
+var len=listOfElements.length;
+alert(len);
+for(var i=0;i<len;i++)
+{
+if(listOfElements[i].hasAttribute("tmf-bind")) alert("Tag Name: "+listOfElements[i].tagName+"\nId: "+listOfElements[i].id+"\ntmf-bind value: "+listOfElements[i].getAttribute("tmf-bind"));
+}
+}
+</script>
+</head>
+<body>
+<center>
+<br>
+<br>
+<table border='0'>
+<tr>
+<td>
+Enter your name:
+</td>
+<td>
+<input type='text' id='nm' name='nm' maxLength='26' size='25' tmf-bind='input tag for name'>
+</input>
+</td>
+</tr>
+<tr>
+<td>
+Enter your address:
+</td>
+<td>
+<textarea rows='2' cols='26' id='ad' name='ad' tmf-bind='textarea tag for address'></textarea>
+</td>
+</tr>
+<tr>
+<td>
+City:
+</td>
+<td>
+<select id='ct' name='ct'>
+<option value='-1'>&lt;Select City&gt;</option>
+<option value='101'>Dhar</option>
+<option value='102' id='op' tmf-bind='option tag for ujjain'>Ujjain</option>
+<option value='103'>Indore</option>
+<option value='104'>Dewas</option>
+</select>
+<span id='ctErrorMessage'></span>
+</td>
+</tr>
+<tr>
+<td>
+Gender:</td>
+<td>
+<input type='radio' id='fe' name='gdr' value='F'></input>&nbsp; Female 
+&nbsp;&nbsp;&nbsp;<input type='radio' id='me' name='gdr' value='M'></input>&nbsp; Male
+<span id='gdrErrorMessage'></span>
+</td>
+</tr>
+<tr>
+<td>
+Adult 
+</td>
+<td>
+<input type='checkbox' id='adlt' name='adlt' value='Y'></input>
+</td>
+</tr>
+<tr>
+<td colspan='2' align='center'>
+<button type='button' onclick='traverseAll()'>Traverse</button>
+</td>
+</tr>
+</table>
+</center>
+</body>
+</html>
